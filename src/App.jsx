@@ -51,14 +51,14 @@ const App = () => {
         <h1 className="capitalize bold text-3xl">weather app</h1>
         <div className="flex items-center gap-2  mt-4 w-full bg-white p-1 rounde">
           <input
-            className="flex-1 border-0 outline-0 rounded-lg px-3 py-2 w-80 capitalize"
+            className="flex-1 border-0 outline-0 rounded-lg px-3 py-2 w-70 capitalize"
             type="text"
             placeholder="enter city..."
             onChange={handleWeatherChange}
             value={city}
           />
           <img
-            className="h-6 w-6 bg-blue-100 p-1 rounded cursor-pointer"
+            className="h-8 w-8 bg-blue-100 p-1 rounded cursor-pointer"
             src={allIcons.searchBar}
             alt="search"
             onClick={() => searchCity(city)}
