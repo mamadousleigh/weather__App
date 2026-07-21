@@ -58,7 +58,7 @@ const App = () => {
             value={city}
           />
           <img
-            className="h-8 w-8 bg-blue-100 p-1 rounded cursor-pointer"
+            className="h-6 w-6 bg-blue-100 p-1 rounded cursor-pointer"
             src={allIcons.searchBar}
             alt="search"
             onClick={() => searchCity(city)}
