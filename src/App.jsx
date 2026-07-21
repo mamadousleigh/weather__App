@@ -49,9 +49,9 @@ const App = () => {
     <div className=" flex  flex-col w-full justify-center p-4 items-center min-h-screen   bg-blue-100 md:items-center md:w-full ">
       <div className="flex flex-col items-center mt-5 bg-blue-200  w-full max-w-sm md:max-w-md lg:max-w-lg rounded shadow p-6">
         <h1 className="capitalize bold text-3xl">weather app</h1>
-        <div className="flex items-center gap-2  mt-4 w-full bg-white p-1 rounde">
+        <div className="flex items-center gap-2  mt-4 w-full bg-white p-1 rounded">
           <input
-            className="flex-1 border-0 outline-0 rounded-lg px-3 py-2 w-70 capitalize"
+            className="flex-1 border-0 outline-0 rounded-lg  w-70 capitalize"
             type="text"
             placeholder="enter city..."
             onChange={handleWeatherChange}
